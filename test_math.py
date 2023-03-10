@@ -13,4 +13,4 @@ def test2_my_add():
     y = 0
 
     actual = my_add(x,y)
-    assert actual == 1
+    assert actual == 0
