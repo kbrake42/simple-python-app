@@ -1,4 +1,4 @@
-from my_math import my_add
+from src.my_math import my_add
 
 def test_my_add():
     x = 2
