@@ -24,3 +24,7 @@ reports:
             - test_results.xml
         base-directory: .
         file-format: JUNITXML
+artifacts:
+    files:
+        "**/*"
+    
