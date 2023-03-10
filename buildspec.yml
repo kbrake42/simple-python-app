@@ -17,3 +17,10 @@ phases:
     post_build:
         commands:
             - echo "we are in the post build phase"
+
+reports:
+    pytest_reports:
+        files:
+            - test_results.xml
+        base-directory: .
+        file-format: JUNITXML
