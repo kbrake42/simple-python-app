@@ -5,5 +5,12 @@ def test_my_add():
     y = 3
 
     actual = my_add(x,y)
+    assert actual == 5
 
-    assert actual == 6
+
+def test2_my_add():
+    x = 0
+    y = 0
+
+    actual = my_add(x,y)
+    assert actual == 1
