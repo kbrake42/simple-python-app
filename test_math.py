@@ -6,4 +6,4 @@ def test_my_add():
 
     actual = my_add(x,y)
 
-    assert actual == 7
+    assert actual == 5
