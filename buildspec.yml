@@ -22,5 +22,5 @@ reports:
     pytest_reports:
         files:
             - test_results.xml
-        base-directory: ./test
+        base-directory: .
         file-format: JUNITXML
