@@ -26,5 +26,6 @@ reports:
         file-format: JUNITXML
 artifacts:
     files:
-        "**/*"
+        - "**/*"
+    name: builds/$CODEBUILD_BUILD_NUMBER/my-artifacts
     
