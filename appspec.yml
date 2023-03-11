@@ -1,0 +1,12 @@
+version: 0.0
+os: linux
+files:
+  - source: /
+    destination: /tmp/python_app
+    
+hooks:
+  BeforeInstall:
+    - location: scripts/create_install_directory.sh
+      timeout: 300
+      runas: root
+      
