@@ -1,3 +1,7 @@
 #!/bin/bash
 
-mkdir /tmp/python_app
+
+if [ ! -d "/tmp/python_app" ]
+then
+    mkdir /tmp/python_app
+fi
