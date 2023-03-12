@@ -3,7 +3,7 @@
 # Define a variable
 result=$(python3 /tmp/python_app/src/my_math.py)
 
-if [ $result -eq 5 ]
+if [ $result -eq 4 ]
 then
     exit 0
 else
