@@ -39,7 +39,7 @@ Resources:
                   - "codebuild:BatchPutTestCases"
                   - "codebuild:BatchPutCodeCoverages"
                 Resource:
-                  - "arn:aws:codebuild:${AWS::Region}:${AWS::AccountId}:report-group/Sample-CodeBuildProject-*"
+                  - !Sub "arn:aws:codebuild:${AWS::Region}:${AWS::AccountId}:report-group/Sample-CodeBuildProject-*"
 
 
   CodeBuildProject:
