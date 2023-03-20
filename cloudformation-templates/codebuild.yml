@@ -39,7 +39,7 @@ Resources:
                   - "codebuild:BatchPutTestCases"
                   - "codebuild:BatchPutCodeCoverages"
                 Resource:
-                  - "arn:aws:codebuild:us-east-1:658791699648:report-group/Sample-CodeBuildProject-*"
+                  - "arn:aws:codebuild:${AWS::Region}:${AWS::AccountId}:report-group/Sample-CodeBuildProject-*"
 
 
   CodeBuildProject:
@@ -56,6 +56,6 @@ Resources:
       Source:
         Auth:
           Type: OAUTH
-        Location: https://github.com/kbrake42/My-Python-App.git
+        Location: https://github.com/kbrake42/simple-python-app.git
         Type: GITHUB
       TimeoutInMinutes: 10
