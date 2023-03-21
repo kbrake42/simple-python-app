@@ -41,7 +41,6 @@ Resources:
                 Resource:
                   - !Sub "arn:aws:codebuild:${AWS::Region}:${AWS::AccountId}:report-group/Sample-CodeBuildProject-*"
 
-
   CodeBuildProject:
     Type: AWS::CodeBuild::Project
     Properties:
