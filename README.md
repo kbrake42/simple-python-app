@@ -6,8 +6,17 @@ Just a very basic app that has a function that accepts two numbers and adds them
 There are two 'test_' files that both have 2 tests in them that work with pytest.
 
 ## Using this repo with AWS CodeBuild
-- Create a stack using the CloudFormation Template at \cloudformation-templates\codebuild.yml
-  - Link to github repo
+- Create a stack using this CloudFormation Template: [codebuild.yml](https://github.com/kbrake42/simple-python-app/blob/main/cloudformation-templates/codebuild.yml)
+  - Use this [link](https://docs.aws.amazon.com/codebuild/latest/userguide/access-tokens.html#access-tokens-github) to learn more about setting up access to the github repo
+  - Note that if you want to use a github token then you can follow these steps before running the stack:
+    - Access CodeBuild from the console
+    - Create a new build project
+    - In the source section select GitHub as the Source provider
+    - Select the 'Connect with a GitHub personal access token' option
+    - In the 'GitHub personal access token' enter the GitHub personal access token
+    - Click Save Token button
+    - Under Connection Status if you see: "You are connected to GitHub using a personal access token." then you are good and can cancel the project creation.
+    - You should now be able to create the stack
 - Run the build
   - From the console
     - testing
