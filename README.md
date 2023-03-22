@@ -31,5 +31,6 @@ The build will run the unit tests and create a report file.  The build creates a
     - Access Report groups
     - Click the radio button next to Sample-CodeBuildProject-pytest_reports to select that Report group
     - Click the View Details button to see details about test runs
+    - Here is a view of the Trends section.  Cool!!
     - ![Screenshot of Report Group Details.](images/report_group_details.png)
 
