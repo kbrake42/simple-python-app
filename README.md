@@ -4,6 +4,7 @@ Simple Python App to experiment with AWS CodeBuild
 ## About the App
 Just a very basic app that has a function that accepts two numbers and adds them together.
 There are two 'test_' files that both have 2 tests in them that work with pytest.
+The build will run the unit tests and create a report file.  The build creates a file called test_results.xml using the JUNITXML format.
 
 ## Using this repo with AWS CodeBuild
 - Create a stack using this CloudFormation Template: [codebuild.yml](https://github.com/kbrake42/simple-python-app/blob/main/cloudformation-templates/codebuild.yml)
