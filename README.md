@@ -19,6 +19,15 @@ There are two 'test_' files that both have 2 tests in them that work with pytest
     - You should now be able to create the stack
 - Run the build
   - From the console
-    - testing
+    - Access CodeBuild in the management console
+    - Access the Build Projects page
+    - Select Sample-CodeBuildProject
+    - Click 'Start build' button
+    - Click 'Start now'
+    - ![Screenshot of CodeBuild.](images/codeBuild_Start.png)
   - from the cli
-    - testing
+    - [update comming!!]
+-  Check out the Unit Test Reports created during the build
+    - reports
+
+
